@@ -2,7 +2,7 @@
 
 const NavBar = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-pink-500">
       <div className="navbar-start">
       <a className="btn btn-ghost text-xl">Gadget Heaven</a>
       </div>
