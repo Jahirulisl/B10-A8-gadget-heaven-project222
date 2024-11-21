@@ -1,8 +1,8 @@
 
 const Details = () => {
     return (
-        <div className="border mx-8 p-8" >
-            <div className="my-8 text-white text-2xl bg-pink-800 px-4 rounded-full">
+        <div className="border w-[150px] text-center" >
+            <div className="my-8 text-white bg-pink-800 ">
               <button>All Product</button>
             </div>
 

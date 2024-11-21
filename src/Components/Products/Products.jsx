@@ -12,8 +12,11 @@ const Products = () => {
   },[]);
 
     return (
-              <div className="flex justify-center ">
-                 <div className="m-4">
+              <div>
+                <h2 className="text-center font-bold text-4xl p-4">Explore Cutting-Edge Gadgets</h2>
+
+                <div className="flex justify-center ">
+                 <div className="m-4 max-w-4/1">
                    <Details></Details>
                  </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center w-5xl">
@@ -22,6 +25,12 @@ const Products = () => {
                      }
                   </div>
               </div>
+
+
+
+              </div>
+              
+
            
         
     );

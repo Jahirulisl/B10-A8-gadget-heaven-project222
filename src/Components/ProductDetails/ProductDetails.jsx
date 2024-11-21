@@ -1,4 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToStoredReadList } from "../Utility/addToDb";
 
 const ProductDetails = () => {
   const {product_id} = useParams();
@@ -10,6 +11,11 @@ const ProductDetails = () => {
   const product = data.find(product => product.product_id===id);
 
   const {product_id:newProduct_id,product_image,product_title,price,description,specification,rating} =product;
+
+   const handleMarkAsRead =(id) =>{
+
+     addToStoredReadList(id);
+   }
     return (
       <div>
       <div className='w-full h-60 p-4 text-center bg-pink-800 text-white'>
@@ -17,9 +23,9 @@ const ProductDetails = () => {
         <p className='text-xl'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
       </div>
 
-      <div className='flex justify-center border p-4 gap-8'>
-          <div className='-mt-8'>
-           <img src={product_image} alt="" />
+      <div className='grid grid-cols-1 lg:grid-cols-2 mx-auto p-4  -mt-10 rounded-3xl border justify-items-center '>
+          <div className='rounded-2xl'>
+           <img className='rounded-2xl w-auto' src=  {product_image} alt=""/>
           </div>
 
           <div className='mt-4'>
@@ -60,7 +66,7 @@ const ProductDetails = () => {
 
            </div>
           <div className='font-bold bg-pink-500 text-white text-center mt-4 rounded-full'>
-             <button>Add To Card</button>
+             <button onClick={()=>handleMarkAsRead(product_id)}>Add To Card</button>
           </div>  
        </div>
       </div>
