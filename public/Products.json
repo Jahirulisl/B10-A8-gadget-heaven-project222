@@ -1,0 +1,135 @@
+
+[
+    {
+      "product_id": 1,
+      "product_title": "Galaxy S21",
+      "product_image": "https://i.ibb.co.com/WzWbvYg/flat-travel-exploration-youtube-channel-art-23-2150001427.jpg",
+      "category": "Smartphones",
+      "price": 799, 
+      "description": "High-end smartphone with advanced camera.",
+      "specification": ["8GB RAM", "128GB Storage", "Triple Camera","Touchscreen"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 2,
+      "product_title": "iPhone 12",
+      "product_image": "https://i.ibb.co.com/6vgmJQr/smartphone-1-53876-95800.jpg",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Apple's latest iPhone with powerful performance.",
+      "specification": ["6GB RAM", "64GB Storage", "Dual Camera","Touchscreen"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "OnePlus 9",
+      "product_image": "https://i.ibb.co.com/k9QWD7j/smartphone-i-phone-23-2149437072.jpg",
+      "category": "Smartphones",
+      "price": 729,
+      "description": "Smooth and fast with a stunning display.",
+      "specification": ["12GB RAM", "256GB Storage", "Quad Camera","Touchscreen"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "Pixel 5",
+      "product_image": "https://i.ibb.co.com/6vgmJQr/smartphone-1-53876-95800.jpg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "Pure Android experience with excellent camera.",
+      "specification": ["8GB RAM", "128GB Storage", "Dual Camera","Touchscreen"],
+      "availability": false,
+      "rating": 4.3
+    },
+    {
+      "product_id": 5,
+      "product_title": "Samsung A52",
+      "product_image": "https://i.ibb.co.com/qN8d862/man-home-2-144627-18629.jpg",
+      "category": "Smartphones",
+      "price": 499,
+      "description": "Affordable with high-quality features.",
+      "specification": ["6GB RAM", "128GB Storage", "Quad Camera","Touchscreen"],
+      "availability": true,
+      "rating": 4.1
+    },
+    {
+      "product_id": 6,
+      "product_title": "Sony Xperia 5 II",
+      "product_image": "https://i.ibb.co.com/6vgmJQr/smartphone-1-53876-95800.jpg",
+      "category": "Smartphones",
+      "price": 949,
+      "description": "High-quality display and camera.",
+      "specification": ["8GB RAM", "128GB Storage", "Triple Camera","Touchscreen"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 7,
+      "product_title": "MacBook Air M1",
+      "product_image": "https://i.ibb.co.com/Lx19JtZ/laptop-1-23-2150372404.jpg",
+      "category": "Laptops",
+      "price": 999,
+      "description": "Lightweight and powerful with M1 chip.",
+      "specification": ["8GB RAM", "256GB SSD", "13.3 inch Retina Display"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 8,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/0VhdYGJ/laprtop-2.jpg",
+      "category": "Laptops",
+      "price": 1199,
+      "description": "High performance with stunning display.",
+      "specification": ["16GB RAM", "512GB SSD", "13.4 inch 4K Display"],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": 9,
+      "product_title": "iPad Pro 11",
+      "product_image": "https://i.ibb.co.com/nzYbgDx/laptop-3-53876-20635.jpg",
+      "category": "Tablets",
+      "price": 799,
+      "description": "High-performance tablet with M1 chip.",
+      "specification": ["8GB RAM", "128GB Storage", "11 inch Display"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 10,
+      "product_title": "Samsung Galaxy Tab S7",
+      "product_image": "https://i.ibb.co.com/Lx19JtZ/laptop-1-23-2150372404.jpg",
+      "category": "Tablets",
+      "price": 649,
+      "description": "Powerful tablet with vibrant display.",
+      "specification": ["6GB RAM", "128GB Storage", "11 inch Display"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 11,
+      "product_title": "AirPods Pro",
+      "product_image": "https://i.ibb.co.com/Pcnh2Yg/Airbard-kit-23-2149706002.jpg",
+      "category": "Accessories",
+      "price": 249,
+      "description": "Noise-cancelling wireless earbuds from Apple.",
+      "specification": ["Noise Cancellation", "Wireless Charging", "24-hour Battery"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 12,
+      "product_title": "Samsung Galaxy Buds Pro",
+      "product_image": "https://i.ibb.co.com/vZS759q/earphones-23-2150763318.jpg",
+      "category": "Accessories",
+      "price": 199,
+      "description": "High-quality sound and comfort in wireless earbuds.",
+      "specification": ["Noise Cancellation", "Water Resistant", "Wireless Charging"],
+      "availability": true,
+      "rating": 4.4
+    }
+  ]
