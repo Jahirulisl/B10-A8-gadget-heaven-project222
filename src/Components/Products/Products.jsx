@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Product from "../Product/Product";
+import Details from "../../Details/Details";
 
 const Products = () => {
   const [products,setProduct] = useState([]);
@@ -13,7 +14,7 @@ const Products = () => {
     return (
               <div className="flex justify-center ">
                  <div className="m-4">
-                   <h2>jahir</h2>
+                   <Details></Details>
                  </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center w-5xl">
                     {
