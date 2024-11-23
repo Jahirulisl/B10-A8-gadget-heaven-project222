@@ -65,9 +65,7 @@ const ProductDetails = () => {
              </div>
 
            </div>
-          <div className='font-bold bg-pink-500 text-white text-center mt-4 rounded-full'>
-             <button onClick={()=>handleMarkAsRead(product_id)}>Add To Card</button>
-          </div>  
+             <button className="font-bold bg-pink-500 text-white text-center mt-4 rounded-full px-8 py-2" onClick={()=>handleMarkAsRead(product_id)}>Add To Card</button>
        </div>
       </div>
    </div>

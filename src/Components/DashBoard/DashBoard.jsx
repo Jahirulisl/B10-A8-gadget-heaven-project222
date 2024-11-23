@@ -1,7 +1,23 @@
+import { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import { getStoredReadList } from "../Utility/addToDb";
+import Product from "../Product/Product";
 
 const DashBoard = () => {
+    const[readList,setReadList] =useState([]);
 
-   
+   const allProducts = useLoaderData();
+   useEffect(()=>{
+    const storedReadList= getStoredReadList();
+
+    const storedReadListInt =storedReadList.map(id =>parseInt(id));
+
+    console.log(storedReadList,storedReadListInt,allProducts);
+    const readProductList =allProducts.filter(product => storedReadListInt.includes(product.product_id));
+
+    setReadList(readProductList);
+
+   },[])
 
 
     return (
@@ -13,14 +29,15 @@ const DashBoard = () => {
                      <button className="border px-4 rounded-full">Cart</button>
                      <button  className="border px-4 rounded-full">Wishlist</button>
                   </div>
-               </div>
-               <div className="m-8 flex  justify-between">
-                   <div>Cart</div>
-                     <div className="flex justify-end gap-4">
-                      <button className="font-bold">Total cost: 999.99</button>
-                      <button className="outline px-4 rounded-full text-violet-700">Sort by Price</button>
-                      <button className="bg-violet-700 text-white px-4 py-2 rounded-full">Purchase</button>
-                     </div>
+                </div>
+                  <h2 className="font-bold text-3xl m-8">Card</h2>
+                  <div className="m-8 flex  justify-between">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center mx-auto">
+                        {
+                          readList.map(product => <Product key={product.product_id} product={product}></Product>)  
+                        }
+                    </div>
+                 
                </div>
         </div>
     );

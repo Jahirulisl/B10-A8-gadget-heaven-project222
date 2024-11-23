@@ -13,8 +13,6 @@ import Home from './Components/Home/Home';
 import DashBoard from './Components/DashBoard/DashBoard';
 import Statistics from './Components/Statistics/Statistics';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
-import ListedProducts from './Components/Utility/ListedProducts/ListedProducts';
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,16 +26,12 @@ const router = createBrowserRouter([
      
       {
         path:'dashboard',
-        element:<DashBoard></DashBoard>
+        element:<DashBoard></DashBoard>,
+        loader: ()=> fetch('/Products.json')
       },
       {
         path:'statistics',
         element:<Statistics></Statistics>
-      },
-      {
-       path:'listedProducts',
-       element:<ListedProducts></ListedProducts>,
-       loader: ()=> fetch('/Products.json')
       },
       {
         path:'products/:product_id',
