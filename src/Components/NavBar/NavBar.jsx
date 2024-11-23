@@ -9,22 +9,24 @@ const NavBar = () => {
 
     </>
     return (
-        <div className="navbar bg-pink-500">
+        <div className="navbar bg-violet-600 ">
       <div className="navbar-start">
-      <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+      <a className="btn btn-ghost text-xl text-white">Gadget Heaven</a>
       </div>
 
       <div className="navbar-center lg:flex">
 
-       <ul className="menu md:menu-horizontal px-1 ">
+       <ul className="menu md:menu-horizontal px-1 text-white ">
            {links}
        </ul>
       </div>
+      
       <div className="navbar-end">
-      <a className="btn">Button</a>
+      <a className=""> <input type="btn" name="rating-3" className="mask mask-heart bg-white" /></a>
       </div>
      </div>
     );
 };
 
 export default NavBar;     
+ 

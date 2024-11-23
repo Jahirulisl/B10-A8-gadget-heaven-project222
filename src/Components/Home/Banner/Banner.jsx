@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <div className='justify-center'>
 
-        <div className="hero  bg-pink-500 text-white ">
+        <div className="hero  bg-violet-600 text-white ">
            <div className="hero-content text-center">
               <div className="max-w-md">
 

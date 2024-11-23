@@ -2,8 +2,8 @@ import ProductPriceChart from "../ProductPriceChart/ProductPriceChart";
 
 const Statistics = () => {
     return (
-        <div>
-            <h1>from statics</h1>
+        <div className="m-8">
+            <h1 className="font-bold">Statics</h1>
             <ProductPriceChart></ProductPriceChart>
         </div>
     );

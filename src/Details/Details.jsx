@@ -2,7 +2,7 @@
 const Details = () => {
     return (
         <div className="border w-[150px] text-center" >
-            <div className="my-8 text-white bg-pink-800 ">
+            <div className="my-8 text-white bg-pink-800 rounded-full">
               <button>All Product</button>
             </div>
 
@@ -19,7 +19,7 @@ const Details = () => {
             </div>
 
             <div className="my-8 text-2xl bg-gray-300 px-4 rounded-full">
-              <button>Smart Watches</button>
+              <button>SmartWatch</button>
             </div>
 
             <div className="my-8 text-2xl bg-gray-300 px-4 rounded-full">

@@ -6,6 +6,8 @@ import Product from "../Product/Product";
 const DashBoard = () => {
     const[readList,setReadList] =useState([]);
 
+   
+
    const allProducts = useLoaderData();
    useEffect(()=>{
     const storedReadList= getStoredReadList();
@@ -18,8 +20,10 @@ const DashBoard = () => {
     setReadList(readProductList);
 
    },[])
-
-
+ 
+    const handleSort = sortType => {
+      setSort(sortType);
+    }
     return (
         <div>
              <div className="justify-items-center bg-violet-600 text-white p-6">
