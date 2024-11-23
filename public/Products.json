@@ -3,7 +3,7 @@
     {
       "product_id": 1,
       "product_title": "Galaxy S21",
-      "product_image": "https://i.ibb.co.com/WzWbvYg/flat-travel-exploration-youtube-channel-art-23-2150001427.jpg",
+      "product_image": "https://i.ibb.co.com/Gp6HL2x/young-woman-trendy-stylish-glasses-bright-orange-oversized-jacket-white-background-holds-phone-with.jpg",
       "category": "Smartphones",
       "price": 799, 
       "description": "High-end smartphone with advanced camera.",
@@ -36,7 +36,7 @@
     {
       "product_id": 4,
       "product_title": "Pixel 5",
-      "product_image": "https://i.ibb.co.com/6vgmJQr/smartphone-1-53876-95800.jpg",
+      "product_image": "https://i.ibb.co.com/K2h3HQ9/pexels-photo-1092644.webp",
       "category": "Smartphones",
       "price": 699,
       "description": "Pure Android experience with excellent camera.",
@@ -58,7 +58,7 @@
     {
       "product_id": 6,
       "product_title": "Sony Xperia 5 II",
-      "product_image": "https://i.ibb.co.com/6vgmJQr/smartphone-1-53876-95800.jpg",
+      "product_image": "https://i.ibb.co.com/T1Qc5qy/back-position-smartphone-device-tech-generative-ai.jpg",
       "category": "Smartphones",
       "price": 949,
       "description": "High-quality display and camera.",
@@ -80,7 +80,7 @@
     {
       "product_id": 8,
       "product_title": "Dell XPS 13",
-      "product_image": "https://i.ibb.co.com/0VhdYGJ/laprtop-2.jpg",
+      "product_image": "https://i.ibb.co.com/VQhJS4D/laptop-2221-1779.jpg",
       "category": "Laptops",
       "price": 1199,
       "description": "High performance with stunning display.",
@@ -102,7 +102,7 @@
     {
       "product_id": 10,
       "product_title": "Samsung Galaxy Tab S7",
-      "product_image": "https://i.ibb.co.com/Lx19JtZ/laptop-1-23-2150372404.jpg",
+      "product_image": "https://i.ibb.co.com/XbkJQ14/laptop-white-background-2222-75461.jpg",
       "category": "Tablets",
       "price": 649,
       "description": "Powerful tablet with vibrant display.",
@@ -112,8 +112,8 @@
     },
     {
       "product_id": 11,
-      "product_title": "AirPods Pro",
-      "product_image": "https://i.ibb.co.com/Pcnh2Yg/Airbard-kit-23-2149706002.jpg",
+      "product_title": "Power Bank",
+      "product_image": "https://i.ibb.co.com/H4j1t8T/pexels-itsemshuvo-4812315.jpg",
       "category": "Accessories",
       "price": 249,
       "description": "Noise-cancelling wireless earbuds from Apple.",
@@ -123,8 +123,8 @@
     },
     {
       "product_id": 12,
-      "product_title": "Samsung Galaxy Buds Pro",
-      "product_image": "https://i.ibb.co.com/vZS759q/earphones-23-2150763318.jpg",
+      "product_title": "Samsung Galaxy Head Set",
+      "product_image": "https://i.ibb.co.com/h1mRfgG/headset-1-23-2150763313.jpg",
       "category": "Accessories",
       "price": 199,
       "description": "High-quality sound and comfort in wireless earbuds.",
